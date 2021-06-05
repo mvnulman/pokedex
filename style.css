@@ -541,24 +541,6 @@ img.pokemon-picture {
   background: var(--blue);
 }
 
-.black-pill-buttons {
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  width: 30%;
-  height: 2%;
-  left: 60%;
-  top: 53%;
-}
-
-.black-pill-button {
-  display: flex;
-  background: var(--screen-dark);
-  width: 45%;
-  height: 100%;
-  border-radius: 50px;
-}
-
 .white-buttons {
   display: flex;
   justify-content: space-evenly;

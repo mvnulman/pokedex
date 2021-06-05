@@ -5,7 +5,9 @@
 
 ## Description
 
-Development of a Pokedex application, that fetches data of PokéAPI.
+Development of a Pokedex application, that fetches data of PokéApi.
+
+PokeApi is an educational service providing open and free data around Nintendo's famous handheld game.
 
 ### Technologies
 

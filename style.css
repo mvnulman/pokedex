@@ -418,8 +418,8 @@ img.pokemon-picture {
     position: absolute;
     width: 30%;
     top: 0px;
-    height: 28px;
-    right: 60px;
+    height: 25px;
+    right: 50px;
     border-radius: 5%;
     border: 1px solid black;
     background: var(--black);
@@ -429,8 +429,8 @@ img.pokemon-picture {
     position: absolute;
     width: 31%;
     top: 0px;
-    height: 28px;
-    left: 60px;
+    height: 25px;
+    left: 50px;
     border-radius: 5%;
     border: 1px solid black;
     background: var(black);

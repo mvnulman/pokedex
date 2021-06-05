@@ -1,6 +1,7 @@
+
 # Pokedex
 
----
+![demo-gif](https://user-images.githubusercontent.com/63374582/120893546-83f22300-c61c-11eb-8b25-0aae3618443a.gif)
 
 ## Description
 

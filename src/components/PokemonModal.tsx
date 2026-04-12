@@ -24,7 +24,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
         className="bg-gray-900 rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto animate-slide-up"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header with gradient */}
+
         <div 
           className="relative p-6 rounded-t-3xl"
           style={{ background: `linear-gradient(135deg, ${bgColor}40, ${bgColor}20)` }}
@@ -37,7 +37,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
           </button>
 
           <div className="flex items-center gap-6">
-            {/* Pokemon image */}
+
             <div className="w-40 h-40 bg-gray-800/50 rounded-full flex items-center justify-center animate-pulse-slow">
               <img
                 src={pokemon.spriteAnimated || pokemon.sprite}
@@ -46,7 +46,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
               />
             </div>
 
-            {/* Basic info */}
+
             <div className="flex-1">
               <span className="text-sm text-gray-400 font-bold">
                 {formatPokemonId(pokemon.id)}
@@ -55,7 +55,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
                 {pokemon.name}
               </h2>
               
-              {/* Types */}
+
               <div className="flex gap-2 mb-4">
                 {pokemon.types.map((type) => (
                   <span
@@ -68,7 +68,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
                 ))}
               </div>
 
-              {/* Info cards */}
+
               <div className="flex gap-3">
                 <div className="bg-gray-900/60 rounded-xl p-3 flex items-center gap-2">
                   <Ruler className="w-5 h-5 text-blue-400" />
@@ -89,7 +89,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
           </div>
         </div>
 
-        {/* Stats section */}
+
         <div className="p-6">
           <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <Zap className="w-6 h-6 text-yellow-400" />
@@ -119,7 +119,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
           </div>
         </div>
 
-        {/* Abilities section */}
+
         <div className="p-6 pt-0">
           <h3 className="text-xl font-bold text-white mb-4">
             Habilidades
@@ -136,7 +136,7 @@ export function PokemonModal({ pokemon, onClose }: PokemonModalProps) {
           </div>
         </div>
 
-        {/* Base Experience */}
+
         <div className="p-6 pt-0">
           <div className="bg-gradient-to-r from-yellow-500/20 to-yellow-600/20 rounded-xl p-4">
             <p className="text-sm text-gray-400">Experiência Base</p>

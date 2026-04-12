@@ -40,12 +40,10 @@ export function PokemonCard({ pokemon, onClick }: PokemonCardProps) {
           </div>
         </div>
 
-        {/* Pokemon name */}
         <h3 className="text-center text-lg font-bold text-white capitalize mb-3">
           {pokemon.name}
         </h3>
 
-        {/* Types */}
         <div className="flex gap-2 justify-center flex-wrap">
           {pokemon.types.map((type) => (
             <span
